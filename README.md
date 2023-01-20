@@ -15,8 +15,9 @@ $$P=e^{-r(T-t)}KN(-d2)-S_tN(-d1)$$
 
 ## Monte Carlo simulation
 模擬多條股票路徑
-$$S_{t+1}=S_te^{(r-0.5\sigma^2)\Delta{t}+\sigma\epsilon\sqrt{\Delta{t}}}$$
-$$\ln{S_{t+1}}=\ln{S_t} + e^{(r-0.5\sigma^2)\Delta{t}+\sigma\epsilon\sqrt{\Delta{t}}}$$
+$$S_{t+1}=S_t \mu dt + S_t \sigma dW_t$$
+$$S_{t+1}=S_te^{(r-0.5\sigma^2)d{t}+\sigma\epsilon\sqrt{d{t}}}$$
+$$\ln{S_{t+1}}=\ln{S_t} + e^{(r-0.5\sigma^2)d{t}+\sigma\epsilon\sqrt{d{t}}}$$
 
 計算call及put的價值
 $$C_T=\max(S_T-K,0)$$ 
