@@ -23,5 +23,5 @@ $$C_T=\max(S_T-K,0)$$
 $$P_T=\max(K-S_T,0)$$
 
 取期望值再折現
-$$C_t=c_te^{-r(T-t)}E(C_T)$$
-$$P_t=p_te^{-r(T-t)}E(P_T)$$
+$$C_t=e^{-r(T-t)}E(C_T)$$
+$$P_t=e^{-r(T-t)}E(P_T)$$
