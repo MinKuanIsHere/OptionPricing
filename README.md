@@ -26,3 +26,8 @@ $$P_T=\max(K-S_T,0)$$
 取期望值再折現
 $$C_t=e^{-r(T-t)}E(C_T)$$
 $$P_t=e^{-r(T-t)}E(P_T)$$
+
+## 程式碼及文章連結
+BSmodel.ipynb https://medium.com/@minkuanchen/python-%E9%81%B8%E6%93%87%E6%AC%8A%E5%AE%9A%E5%83%B9black-scholes-model-9ee04dc26287
+MCS.ipynb https://medium.com/@minkuanchen/python-%E9%81%B8%E6%93%87%E6%AC%8A%E5%AE%9A%E5%83%B9monte-carlo-simulation-d62a535b2dac
+https://minkuanchen.medium.com/python-%E7%88%AC%E8%9F%B2%E5%8F%B0%E6%8C%87%E9%81%B8%E6%93%87%E6%AC%8A%E5%8F%8A%E5%A4%A7%E7%9B%A4%E5%A0%B1%E5%83%B9-873dd4a3978a
